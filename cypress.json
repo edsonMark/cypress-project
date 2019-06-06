@@ -1,3 +1,6 @@
 {
-    "baseUrl": "http://example.com/"
+    "baseUrl": "http://example.com/",
+    "waitForAnimations": false,
+    "animationDistanceThreshold": 100,
+    "defaultCommandTimeout": 10000	
 }
