@@ -18,6 +18,7 @@ describe('Create Booking', () => {
         cy.get(booking.bookingCheckIn).type('2019-07-10')
         cy.get(booking.bookingCheckOut).type('2019-07-30')
         cy.get('#form').find("[type='button']").click()
+        cy.get('#bookings').contains('Homer')
     })
 
     it('should delete a booking', () => {
