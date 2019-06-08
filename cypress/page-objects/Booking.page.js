@@ -20,4 +20,14 @@ export default class Login {
     get bookingCheckOut() {
         return '#checkout'
     }
+
+    get buttonSave() {
+        return '#form [type=button'
+    }
+
+    get buttonDelete() {
+        return '#bookings .row:last-child [type=button]'
+    }
+
+    
 }
