@@ -17,6 +17,7 @@ describe('Create Booking', () => {
         cy.get(booking.bookingCheckIn).type('2019-07-10')
         cy.get(booking.bookingCheckOut).type('2019-07-30')
         cy.get(booking.buttonSave).click()
+        cy.get('#bookings .row:last-child p').contains( 'Homer')
     })
 
     it('should delete a booking', () => {
