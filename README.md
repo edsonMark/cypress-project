@@ -12,9 +12,13 @@ Install Pre-requisite:
 
 Clone repository: git clone https://github.com/edsonMark/cypress-project
 
-After repo is cloned run
+After repo is cloned
+
+Run:
 
 Npm Install
+
+npm install --save-dev
 
 #Execute npm cypress:open
 
