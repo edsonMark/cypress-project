@@ -20,7 +20,9 @@ Npm Install
 
 npm install --save-dev
 
-#Execute npm cypress:open
+#Execute 
+
+npm cypress:open
 
 When cypress interface opens
 
