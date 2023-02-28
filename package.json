@@ -2,7 +2,7 @@
   "name": "cypress-tutorial",
   "version": "1.0.0",
   "dependencies": {
-    "cypress": "^3.3.1",
+    "cypress": "^12.7.0",
     "cypress-image-snapshot": "^3.1.1"
   },
 
